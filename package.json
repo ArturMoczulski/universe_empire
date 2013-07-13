@@ -1,0 +1,16 @@
+{
+  "name": "Universe Empire",
+  "version": "0.0.1",
+  "description": "A multiplayer self-progressing players-driven empire
+  building game.",
+  "author": {
+    "name": "Artur Moczulski",
+    "email": "artur.moczulski@gmail.com",
+    "web": "https://github.com/ArturMoczulski"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArturMoczulski/universe_empire"
+  },
+  "private": true
+}
