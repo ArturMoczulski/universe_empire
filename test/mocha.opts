@@ -1,0 +1,5 @@
+--require should
+--require ./lib/bootstrap
+--reporter spec
+--ui bdd
+--recursive
