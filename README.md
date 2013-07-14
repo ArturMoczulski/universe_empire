@@ -7,7 +7,7 @@ The application follows the general guidelines of semantic versioning
 (http://semver.org/). However, the it is not a library thus meaning of a minor
 and a major are slightly different.
 
-<major>.<minor>.<patch>
+[major].[minor].[patch]
 
 Patch is bumped when releasing bug fixes.
 
