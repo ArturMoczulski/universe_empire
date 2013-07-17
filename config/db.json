@@ -1,0 +1,8 @@
+{
+  "default": {
+    "host": "localhost",
+    "user": "root",
+    "password": "root",
+    "name": "universe_empire"
+  }
+}

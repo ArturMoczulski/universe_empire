@@ -9,10 +9,15 @@ describe('Controllers.Access', function() {
   describe('#denied()', function() {
     it('should provide access denied information', function(done) {
 
-      request(new Core.UniverseEmpireServer()).
+      var server = new Core.UniverseEmpireServer()
+
+      request(server).
         get("/access/denied").
-        expect('Content-Type', /json/).
-        expect(403, done);
+        expect(403, {
+          errors: [ { 
+            message: "Access denied." 
+            } ]
+      }, done); 
 
     })
   })

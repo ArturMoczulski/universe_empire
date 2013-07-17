@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "mongodb": "*",
-    "mongojs": "*",
+    "mongoose": "*",
     "express": "*",
     "autoloader": "*"
   },
